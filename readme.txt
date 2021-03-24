@@ -38,6 +38,8 @@ docker-compose -f yaml/portainer.yml down
 curl 'http://localhost:8848/'
 curl 'http://localhost:8848/nacos/v1/ns/service/list'
 
+curl 'http://82.157.54.206:8848/'
+
 com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/service/list after all servers([nacos:8848]) tried: java.net.ConnectException: Connection refused (Connection refused)
         at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
         at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
