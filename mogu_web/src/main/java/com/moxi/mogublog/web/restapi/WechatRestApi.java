@@ -57,7 +57,7 @@ public class WechatRestApi {
     @GetMapping("/getWechatOrCodeTicket")
     public String getWechatOrCodeTicket() {
         String url = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=TOKEN";
-        return ResultUtil.successWithData("http://image.moguit.cn/cb9ac3e6c1244a6f8c2cce667bd7c4ae");
+        return ResultUtil.successWithData("http://image.7otech.com/cb9ac3e6c1244a6f8c2cce667bd7c4ae");
     }
 
 

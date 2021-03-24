@@ -41,13 +41,13 @@
 				<text class="cuIcon-edit text-red" style="font-size: 18px; margin-left: 15px; margin-right: 5px;"></text> 七橙博客
 			</view>
 			<view class="action" style="margin-top: 10px;">
-				<text class="cuIcon-pic text-red" style="font-size: 18px; margin-left: 15px; margin-right: 5px;"></text> http://image.moguit.cn/favicon.png
+				<text class="cuIcon-pic text-red" style="font-size: 18px; margin-left: 15px; margin-right: 5px;"></text> http://image.7otech.com/favicon.png
 			</view>
 			<view class="action" style="margin-top: 10px;">
 				<text class="cuIcon-calendar text-red" style="font-size: 18px; margin-left: 15px; margin-right: 5px;"></text> 七橙博客 - 专注于技术分享的博客平台
 			</view>
 			<view class="action" style="margin-top: 10px;" >
-				<text class="cuIcon-weblock text-red" style="font-size: 18px; margin-left: 15px; margin-right: 5px;"></text> http://www.moguit.cn
+				<text class="cuIcon-weblock text-red" style="font-size: 18px; margin-left: 15px; margin-right: 5px;"></text> http://www.7otech.com
 			</view> 
 		</view>
 		

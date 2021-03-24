@@ -1,6 +1,6 @@
 ## 安装Zipkin
 
-参考博客： [使用Zipkin搭建七橙博客链路追踪](http://moguit.cn/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)
+参考博客： [使用Zipkin搭建七橙博客链路追踪](http://7otech.com/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)
 
 在 SpringBoot 2.x 版本后就不推荐自定义 zipkin server 了，推荐使用官网下载的 jar 包方式
 

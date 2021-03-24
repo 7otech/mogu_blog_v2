@@ -61,7 +61,7 @@ public class SystemConfigVO extends BaseVO<SystemConfigVO> {
     private String localPictureBaseUrl;
 
     /**
-     * 七牛云存储图片服务器，域名前缀： http://images.moguit.cn
+     * 七牛云存储图片服务器，域名前缀： http://images.7otech.com
      */
     @TableField(updateStrategy = FieldStrategy.IGNORED)
     private String qiNiuPictureBaseUrl;
@@ -133,7 +133,7 @@ public class SystemConfigVO extends BaseVO<SystemConfigVO> {
     private String minioBucket;
 
     /**
-     * Minio服务器文件域名前缀： http://minio.moguit.cn
+     * Minio服务器文件域名前缀： http://minio.7otech.com
      */
     private String minioPictureBaseUrl;
 

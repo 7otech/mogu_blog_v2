@@ -63,7 +63,7 @@
           </el-collapse-item>
           <el-collapse-item title="2018.12.18 更新" name="3">
             <div>重新部署了线上环境</div>
-            <div>线上环境地址：http://www.moguit.cn</div>
+            <div>线上环境地址：http://www.7otech.com</div>
           </el-collapse-item>
         </el-collapse>
       </el-row>

@@ -400,9 +400,9 @@
             </el-collapse-item>
             <el-collapse-item title="七橙博客" name="2">
               <div>网站名称：七橙博客</div>
-              <div>网站LOGO：http://image.moguit.cn/favicon.png</div>
+              <div>网站LOGO：http://image.7otech.com/favicon.png</div>
               <div>网站简介：七橙博客 - 专注于技术分享的博客平台</div>
-              <div>网站地址：http://www.moguit.cn</div>
+              <div>网站地址：http://www.7otech.com</div>
             </el-collapse-item>
           </el-collapse>
 

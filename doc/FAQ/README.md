@@ -6,7 +6,7 @@
 
 ![image-20200512145014851](images/image-20200512145014851.png)
 
-这是因为没有启动链路追踪服务 zipkin，不过不启动也没有关系，只在启动的时候出错一次，不影响正常的使用，如果需要引入，那么参考博客：[使用Zipkin搭建七橙博客链路追踪](http://moguit.cn/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)
+这是因为没有启动链路追踪服务 zipkin，不过不启动也没有关系，只在启动的时候出错一次，不影响正常的使用，如果需要引入，那么参考博客：[使用Zipkin搭建七橙博客链路追踪](http://7otech.com/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)
 
 ## 2、线上服务器内存太小，如何部署七橙博客
 
@@ -24,7 +24,7 @@
 - `rabbitmq`：消息中间件
 - `nginx`：静态资源映射和反向代理
 
-关于具体各个模块的启动参考博客：[使用Docker快速搭建七橙博客](http://www.moguit.cn/#/info?blogUid=ab8377106a0d4b9f8d66131e4312c69e)
+关于具体各个模块的启动参考博客：[使用Docker快速搭建七橙博客](http://www.7otech.com/#/info?blogUid=ab8377106a0d4b9f8d66131e4312c69e)
 
 ## 3、RabbitMQ在运行过程中突然宕机了怎么办？
 
