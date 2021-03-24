@@ -11,6 +11,6 @@ export const appConfig = {
 	// PICTURE_API: 'http://120.78.126.96:8607/mogu-picture',
 	
 	// 正式环境
-	// WEB_API: 'https://apiweb.moguit.cn/mogu-web',
-	// PICTURE_API: 'https://apiweb.moguit.cn/mogu-picture',
+	// WEB_API: 'https://apiweb.7otech.com/mogu-web',
+	// PICTURE_API: 'https://apiweb.7otech.com/mogu-picture',
 }
