@@ -8,12 +8,12 @@ services:
     ports:
       - 9528:80
     networks:
-      - mogu
+      - mushroom
     env_file:
       - ../config/vue_mogu_admin.env
     environment:
       - COMPOSE_PROJECT_NAME=vue_mogu_admin
 
 networks:
-  mogu:
+  mushroom:
     external: true

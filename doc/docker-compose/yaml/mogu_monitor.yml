@@ -8,12 +8,12 @@ services:
     ports:
       - 8606:8606
     networks:
-      - mogu
+      - mushroom
     environment:
       - COMPOSE_PROJECT_NAME=mogu_monitor
     volumes:
       - ../log/:/logs/
       - ../config/mogu_monitor/:/config/
 networks:
-  mogu:
+  mushroom:
     external: true

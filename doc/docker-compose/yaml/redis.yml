@@ -10,8 +10,8 @@ services:
     volumes:
       - ../data/redis_data:/data
     networks:
-      - mogu
+      - mushroom
       
 networks:
-  mogu:
+  mushroom:
     external: true

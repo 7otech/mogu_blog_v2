@@ -8,11 +8,11 @@ services:
     ports:
       - 9527:80
     networks:
-      - mogu
+      - mushroom
     env_file:
       - ../config/vue_mogu_web.env
     environment:
       - COMPOSE_PROJECT_NAME=vue_mogu_web
 networks:
-  mogu:
+  mushroom:
     external: true

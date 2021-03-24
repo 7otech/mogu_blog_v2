@@ -7,8 +7,8 @@ services:
     ports:
       - 8070:8070
     networks:
-      - mogu
+      - mushroom
 
 networks:
-  mogu:
+  mushroom:
     external: true

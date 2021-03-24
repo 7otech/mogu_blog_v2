@@ -21,18 +21,18 @@ services:
       - ../config/elk/logstash/conf:/etc/logstash/conf.d
       - ../config/elk/kibana/kibana.yml:/opt/kibana/config/kibana.yml
     networks:
-      - mogu
+      - mushroom
 
   filebeat:
     image: registry.cn-shenzhen.aliyuncs.com/mogublog/filebeat
     container_name: filebeat
     restart: always
     networks:
-      - mogu
+      - mushroom
     volumes:
      - ../config/elk/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
      - ../log/elk/filebeat/:/opt/
      
 networks:
-  mogu:
+  mushroom:
     external: true

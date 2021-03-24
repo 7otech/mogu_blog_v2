@@ -13,8 +13,8 @@ services:
     volumes:
       - ../data/minio_data:/data
     networks:
-      - mogu    
+      - mushroom
 
 networks:
-  mogu:
+  mushroom:
     external: true

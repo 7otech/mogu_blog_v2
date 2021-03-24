@@ -8,12 +8,12 @@ services:
     ports:
       - 8603:8603
     networks:
-      - mogu
+      - mushroom
     environment:
       - COMPOSE_PROJECT_NAME=mogu_web
     volumes:
       - ../log/:/logs/
       - ../config/mogu_web/:/config/
 networks:
-  mogu:
+  mushroom:
     external: true

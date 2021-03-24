@@ -8,12 +8,12 @@ services:
     ports:
       - 8607:8607
     networks:
-      - mogu
+      - mushroom
     environment:
       - COMPOSE_PROJECT_NAME=mogu_gateway
     volumes:
     - ../log/:/logs/
     - ../config/mogu_gateway/:/config/
 networks:
-  mogu:
+  mushroom:
     external: true

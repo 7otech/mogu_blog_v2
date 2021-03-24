@@ -14,8 +14,8 @@ services:
     volumes:
       - ../data/rabbitmq_data:/var/lib/rabbitmq/mnesia
     networks:
-      - mogu
+      - mushroom
       
 networks:
-  mogu:
+  mushroom:
     external: true

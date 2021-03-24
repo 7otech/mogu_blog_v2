@@ -1,1 +1,1 @@
-docker network create mogu
+docker network create mushroom

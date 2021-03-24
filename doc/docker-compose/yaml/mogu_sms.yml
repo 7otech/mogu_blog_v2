@@ -8,12 +8,12 @@ services:
     ports:
       - 8604:8604
     networks:
-      - mogu
+      - mushroom
     environment:
       - COMPOSE_PROJECT_NAME=mogu_sms
     volumes:
       - ../log/:/logs/
       - ../config/mogu_sms/:/config/
 networks:
-  mogu:
+  mushroom:
     external: true

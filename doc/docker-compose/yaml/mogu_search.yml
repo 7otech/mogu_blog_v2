@@ -8,11 +8,11 @@ services:
     ports:
       - 8605:8605
     networks:
-      - mogu
+      - mushroom
     environment:
       - COMPOSE_PROJECT_NAME=mogu_search
     volumes:
       - ../log/:/logs/
 networks:
-  mogu:
+  mushroom:
     external: true
