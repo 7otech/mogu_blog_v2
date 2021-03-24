@@ -6,7 +6,7 @@ services:
     container_name: mogu_data
     restart: always
     ports:
-      - 80:80  
+      - 8001:8001
       - 8600:8600
     networks:
       - mogu
