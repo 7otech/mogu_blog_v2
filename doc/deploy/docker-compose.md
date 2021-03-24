@@ -1,5 +1,7 @@
 DockerCompose一键部署蘑菇博客(Nacos版)
 
+http://www.moguit.cn/#/info?blogOid=565
+
 前言
 
 首先，特别感谢群里小伙伴 @你钉钉响了 和 @touch fish， 一块完成了蘑菇博客的镜像制作。
