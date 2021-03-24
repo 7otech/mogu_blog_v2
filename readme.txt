@@ -21,3 +21,14 @@ tcp        0      0 0.0.0.0:3307            0.0.0.0:*               LISTEN      
 tcp        0      0 0.0.0.0:8848            0.0.0.0:*               LISTEN      32336/docker-proxy
 tcp6       0      0 :::33060                :::*                    LISTEN      21309/mysqld
 tcp6       0      0 :::3306                 :::*                    LISTEN      21309/mysqld
+
+docker-compose -f yaml/portainer.yml up -d
+Creating network "yaml_default" with the default driver
+WARNING: Found orphan containers (mogu_gateway, mogu_web, mogu_sms, mysql, rabbitmq, redis, mogu_admin, vue_mogu_admin, nacos, mogu_data, vue_mogu_web, mogu_picture) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Pulling portainer (registry.cn-shenzhen.aliyuncs.com/mogublog/portainer:)...
+latest: Pulling from mogublog/portainer
+d1e017099d17: Pull complete
+717377b83d5c: Pull complete
+Digest: sha256:02c51e3116cddbeff35da5a968ce909fcb07ff1b9688faa2eaaa2c237e9f7548
+Status: Downloaded newer image for registry.cn-shenzhen.aliyuncs.com/mogublog/portainer:latest
+Creating portainer ... done
