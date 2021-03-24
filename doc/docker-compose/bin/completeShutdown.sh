@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo '=====开始结束运行蘑菇博客服务====='
+echo '=====开始结束运行七橙博客服务====='
 
 echo '=====结束运行portainer可视化工具====='
 docker-compose -f ../yaml/portainer.yml down

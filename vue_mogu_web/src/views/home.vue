@@ -395,13 +395,13 @@
             <el-collapse-item title="申请须知" name="1">
               <div>请确定贵站可以稳定运营</div>
               <div>原创博客优先，技术类博客优先</div>
-              <div>申请前请先添加下方蘑菇博客友链</div>
+              <div>申请前请先添加下方七橙博客友链</div>
               <div>欢迎各位小伙伴一起互换友链~</div>
             </el-collapse-item>
-            <el-collapse-item title="蘑菇博客" name="2">
-              <div>网站名称：蘑菇博客</div>
+            <el-collapse-item title="七橙博客" name="2">
+              <div>网站名称：七橙博客</div>
               <div>网站LOGO：http://image.moguit.cn/favicon.png</div>
-              <div>网站简介：蘑菇博客 - 专注于技术分享的博客平台</div>
+              <div>网站简介：七橙博客 - 专注于技术分享的博客平台</div>
               <div>网站地址：http://www.moguit.cn</div>
             </el-collapse-item>
           </el-collapse>

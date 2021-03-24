@@ -224,7 +224,7 @@
           <h2 class="hometitle">友情链接</h2>
           <ul>
             <li v-for="item in linkData" :key="item.uid">
-              <a :href="item.url">{{item.title}}</a>              
+              <a :href="item.url">{{item.title}}</a>
             </li>
           </ul>
         </div>
@@ -234,7 +234,7 @@
         <div class="guanzhu" id="follow-us" ref="follow">
           <h2 class="hometitle">关注我们 么么哒！</h2>
           <ul>
-            <!-- <li class="sina"><a href="/" target="_blank"><span>新浪微博</span>蘑菇博客</a></li>         -->
+            <!-- <li class="sina"><a href="/" target="_blank"><span>新浪微博</span>七橙博客</a></li>         -->
             <li class="qq" v-if="contact.qqNumber">
               <a
                 href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1595833114"

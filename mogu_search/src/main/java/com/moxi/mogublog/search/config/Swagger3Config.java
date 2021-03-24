@@ -30,7 +30,7 @@ public class Swagger3Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("蘑菇博客搜索接口文档")
+                .title("七橙博客搜索接口文档")
                 .description("简单优雅的restful风格")
                 .version("1.0")
                 .build();

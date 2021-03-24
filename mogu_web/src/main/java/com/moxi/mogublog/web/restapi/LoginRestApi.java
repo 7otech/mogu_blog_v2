@@ -146,7 +146,7 @@ public class LoginRestApi {
         user.setNickName(userVO.getNickName());
         user.setPassWord(MD5Utils.string2MD5(userVO.getPassWord()));
         user.setEmail(userVO.getEmail());
-        // 设置账号来源，蘑菇博客
+        // 设置账号来源，七橙博客
         user.setSource(SysConf.MOGU);
         user.setLastLoginIp(ip);
         user.setBrowser(map.get(SysConf.BROWSER));

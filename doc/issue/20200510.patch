@@ -142,7 +142,7 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 +++ mogu_admin/src/main/resources/application.yml	(date 1588998840531)
 @@ -8,10 +8,6 @@
  #项目名称
- PROJECT_NAME: 蘑菇博客
+ PROJECT_NAME: 七橙博客
  
 -file:
 -  upload:

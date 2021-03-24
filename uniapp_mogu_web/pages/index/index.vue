@@ -78,7 +78,7 @@
 			  console.log(res.target)
 			}
 			return {
-			  title: '蘑菇博客',
+			  title: '七橙博客',
 			  path: '/pages/index/index?PageCur=blogHome'
 			}
 		},

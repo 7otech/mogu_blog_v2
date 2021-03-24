@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo '=====开始安装蘑菇博客环境====='
+echo '=====开始安装七橙博客环境====='
 
 echo '=====开始运行mysql====='
 docker-compose -f ../yaml/mysql.yml up -d

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo '=====开始更新蘑菇博客镜像====='
+echo '=====开始更新七橙博客镜像====='
 
 echo '=====开始关闭运行的容器====='
 sh kernShutdown.sh
