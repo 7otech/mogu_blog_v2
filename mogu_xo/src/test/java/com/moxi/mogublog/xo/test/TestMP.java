@@ -34,7 +34,7 @@
 //		DataSourceConfig  dsConfig  = new DataSourceConfig();
 //		dsConfig.setDbType(DbType.MYSQL)  // 设置数据库类型
 //				.setDriverName("com.mysql.jdbc.Driver")
-//				.setUrl("jdbc:mysql://localhost:3306/mogu_picture")
+//				.setUrl("jdbc:mysql://localhost:3307/mogu_picture")
 //				.setUsername("root")
 //				.setPassword("root");
 //
