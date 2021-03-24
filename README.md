@@ -62,9 +62,9 @@
 
 首先特别感谢阿里云提供的 [学生“在家实践” 计划](https://developer.aliyun.com/adc/student/?spm=a2c6h.14062461.J_7747362070.1.5b6933e1X3rvHS)，免费提供的 **6** 个月的 **2核4G1M** 的服务器，所以就刚好以此用来做七橙博客的演示站点，同时我也在搭建的时候，顺便录制了一套视频：[利用阿里云免费服务器搭建个人博客](https://www.bilibili.com/video/BV1c5411b7EZ?t=17) ，感兴趣的小伙伴可以参考视频一起完成部署~
 
-> 【演示前端】：http://demoweb.moguit.cn/
+> 【演示前端】：http://demoweb.7otech.com/
 >
-> 【演示后端】：http://demoadmin.moguit.cn/
+> 【演示后端】：http://demoadmin.7otech.com/
 >
 > 【演示账号】：mogu2018   mogu2018【演示环境开放全部查询权限和部分操作权限】
 >
