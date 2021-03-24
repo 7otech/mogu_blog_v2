@@ -33,6 +33,8 @@ Digest: sha256:02c51e3116cddbeff35da5a968ce909fcb07ff1b9688faa2eaaa2c237e9f7548
 Status: Downloaded newer image for registry.cn-shenzhen.aliyuncs.com/mogublog/portainer:latest
 Creating portainer ... done
 
+docker-compose -f yaml/portainer.yml down
+
 curl 'http://localhost:8848/'
 curl 'http://localhost:8848/nacos/v1/ns/service/list'
 
